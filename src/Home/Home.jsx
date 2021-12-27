@@ -1,16 +1,16 @@
 import React from "react";
-import './Blog.css';
+// import "./Home.css";
 
-class Blog extends React.Component {
+class Home extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <h1>Blog component</h1>
+      <h1>Home component</h1>
     );
   }
 }
 
-export default Blog;
+export default Home;

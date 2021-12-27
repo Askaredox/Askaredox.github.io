@@ -1,9 +1,16 @@
+import React from "react";
 import './About.css';
 
-function About() {
+class About extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
     return (
-        <p>About</p>
-    )
+      <h1>About component</h1>
+    );
+  }
 }
 
 export default About;
