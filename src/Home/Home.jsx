@@ -19,7 +19,9 @@ class Home extends React.Component {
             I'm Andrés, <br />
             Software Engineer
           </h1>
+          <br />
           <h4>Welcome to my webpage</h4>
+          <br />
           <img alt="visitor" src={badge} />
         </FlexboxGrid.Item>
         <FlexboxGrid.Item as={Col} colspan={24} md={12}>
@@ -30,7 +32,7 @@ class Home extends React.Component {
   }
   game = () => {
     return (
-      <Panel header="Panel title" shaded className="gamefy">
+      <Panel shaded className="gamefy">
         yup
       </Panel>
     )
